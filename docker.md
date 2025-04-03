@@ -471,3 +471,10 @@ docker build -t node-app:1.0 .
 
 - `-t node-app:1.0` → Names the image node-app with the tag 1.0.
 - `.` → Specifies the current directory as the build context.
+
+## To Remove a Container
+
+```bash
+docker rm <container_id>
+
+```
