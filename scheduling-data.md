@@ -37,8 +37,8 @@
 
 ```python
 # Categorizing tasks based on float threshold
-critical = count(num_activities where float <= cirital_threshold)
-near_critical = count(num_activities where float <= near_critial_threshold)
+critical = count(num_activities where float <= critical_threshold)
+near_critical = count(num_activities where float <= near_critical_threshold)
 moderate = count(num_activities where float <= moderate_threshold)
 
 # Overall criticality metric
